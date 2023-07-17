@@ -5,6 +5,8 @@ const saturdayFun = function(activity = 'roller-skate') {
 const mondayWork = function(job = 'go to the office') {
         return `This Monday, I will ${job}.`;
     }
+mondayWork()
+
     function wrapAdjective(flair ='*'){
         return function(message ='special'){
             return `You are ${flair}${message}${flair}!`;
